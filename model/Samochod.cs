@@ -16,7 +16,7 @@ namespace EntityDEMO.model
         public Samochod(string typ, int maxSpeed)
         {
             TypPojazdu = typ;
-            predkoscMax = maxSpeed + 1;
+            predkoscMax = maxSpeed;
             SposobPrzemieszczania = (int)Przemieszczanie.Jezdzi;
         }
 
