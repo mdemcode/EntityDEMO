@@ -12,6 +12,6 @@ namespace EntityDEMO.model
         int predkoscMax { get; set; }
         int SposobPrzemieszczania { get; set; }
 
-        void Jedz();
+        //void Jedz();
     }
 }
